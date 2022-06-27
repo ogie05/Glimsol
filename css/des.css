@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rambla&display=swap');
+
+/* for header */
+.header{
+    background-color: #1789FC;
+}
+.title{
+    color: #ffffff;
+   
+}
+.title-b{
+    font-family: 'Suez One' !important;
+    color:#ffffff;
+    font-size: 26px !important;
+    
+}
+.header p{
+    font-family: 'Titan One', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+.banner-img img:hover{
+    background-color: #e9b600;
+    cursor: pointer;
+}
+.banner-img img{
+    padding: 5px;
+    background-color: #FFD02B;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 60px !important;
+    height: 60px !important;
+}
+
+
+
+/* for body */
+.cart{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    border: none;
+    background-color: #D9D9D9;
+    margin-top: 10%;
+    border-radius: 20px;
+    padding: 5%;
+}
+.cart img{
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    max-width: 100%;
+}
+.cart p{
+    font-family: 'Rambla', sans-serif !important;
+    font-size: 20px;
+    margin: 5%;
+}
+.cart button{
+    background-color: #1789FC;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    width: 80%;
+    height: 50px !important;
+    font-size: 18px;
+}
+.cart button:hover{
+    background-color: #0072e4;
+}
+.proceed{
+    background-color: #1789FC;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    width: 60%;
+    height: 40px !important;
+    font-size: 16px;
+}
+
+/* for footer */
+.footer{
+    background-color: #FFD02B;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.footer p{
+    padding: 1%;
+    color: #000;
+    text-align: justify !important;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer{
+        margin-top: 10%;
+        position: relative;
+    }
+  }
